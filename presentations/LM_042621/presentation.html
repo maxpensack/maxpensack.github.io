@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Max Pensack - Lab Meeting 04/26/21</title>
+    <link rel="stylesheet" href="../dist/reveal.css">
+    <link rel="stylesheet" href="../dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="../plugin/highlight/monokai.css">
+</head>
+
+<body>
+    <div class="reveal">
+      	<div class="slides">
+                <!-- Slides are separated by newline + three dashes + newline, vertical slides identical but two dashes -->
+                <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-separator-notes="^Note:" >
+                    <script type="text/template">
+                        ## Learning, rules, and geometric coding
+
+                        Salzman Lab Meeting <br>
+                        April 26<sup>th</sup>, 2021
+
+                        ---
+
+                        #### Geometry, representations, ACC, oh my!
+                        <img src="paper_title.png" class="r-stretch">
+
+                        --
+
+                        But...
+
+                        <p class="fragment">"Our analyses were focused on single-neuron activity, demonstrating that we can track dynamics of representations even at the single-cell level."</p>
+
+                        ---
+
+                        ## Background: Task
+                        - rule-based, multi-cue stimuli classification
+
+                        --
+
+                        Authors told similar story in humans, with special focus on differences in learning across individuals (Cohen and Schneidman, 2013)
+
+                        <img src="cs2013.png" class="r-stretch">
+
+                        ---
+
+                        ## Background: Brain Areas
+                        - Dorsal anterior cingulate cortex (dACC):
+                            - Learning, attention, executive control, conflict monitoring
+                        - Striatum:
+                            - BG > Striatum (dorsal) > Caudate & Putamen
+                            - Motor control, RL, and (recently) executive fuctions
+                            - Learning related changes may precede those in DLPFC (Pasupathy and Miller, 2005)
+
+                        ---
+
+                        ## Visual Abstract
+                        <img src="abstract.jpeg" class="r-stretch">
+
+                        ---
+
+                        ## Experimental design and classification rules
+                        <img src="f1.jpg" class="r-stretch">
+
+                        ---
+
+                        ## Learning curves
+                        <img src="f2a.jpg" class="r-stretch">
+
+                        --
+
+                        ## Learning within sessions and across sessions
+                        <img src="f2b-d.jpg" class="r-stretch">
+
+                        ---
+
+                        ## Rule "Performance"
+                        <img src="f2e.jpg" class="r-stretch">
+
+                        --
+
+                        ## Naive "Learn One" Model
+                        `$$ \left(\frac{1}{8} \times 1.0\right) + \left(\frac{7}{8} \times 0.5\right) = 56.25\% $$`
+
+                        --
+
+                        "The notion that the monkeys learned the rules rather than the label of individual patterns was supported by several lines of evidence."
+
+                        --
+
+                        "First, in pure stimulus-response associative learning, the correct response to each stimulus would be acquired independent of other stimuli, and the performance on particular patterns would be the same under different rules."
+
+                        --
+
+                        "In contrast, we found that pattern-specific error rates show dependence on the specific rule and were correlated with performance on other patterns."
+
+                        <section>
+                            <img src="s1c.png" width="400">
+                            <img src="s1d.png" width="400">
+                        </section>
+
+                        --
+
+                        "Second, classification of the visually salient patterns showed variability across rules and dependence on the specific rule."
+
+                        <img src="s1e.png" class="r-stretch">
+
+                        --
+
+                        "Third, rule learning was supported by the consistency across learning of different rules."
+
+                        <section>
+                            <img src="s1g.png" width="400">
+                            <img src="s1h.png" width="400">
+                        </section>
+
+                        --
+
+                        "Fourth, monkeys could even learn 4-bit rules for which memorization is extremely unlikely (there are 65,536 different deterministic rules for the 16 stimulus patterns)."
+
+                        <img src="f2f.jpg" class="r-stretch">
+
+                        --
+
+                        "Fifth, performance for specific patterns deteriorated following a change of the rule, even when the new rule did not require learning new associations for these patterns."
+
+                        <img src="s1i-n.png" class="r-stretch">
+
+                        --
+
+                        "Finally, a simple strategy based on performance (win-stay, lose-switch) poorly described answer sequences."
+
+                        <img src="s1o.png" class="r-stretch">
+
+                        --
+
+                        "The evidence suggests that monkeys did not use simple memorization of stimulus-response associations as the main strategy and therefore supports the notion of rule learning."
+
+                        ---
+
+                        ## Recording locations
+                        <img src="f3a-b.jpg" class="r-stretch">
+
+                        ---
+
+                        ## Single-neuron response selectivity
+                        <img src="f3c.jpg" class="r-stretch">
+
+                        --
+
+                        ## Performance and area-related trends in selectivity
+                        <img src="f3d-f.jpg" class="r-stretch">
+
+                        ---
+
+                        #### Constructing rule (feature) vectors
+                        <img src="f4a.jpg" class="r-stretch">
+                        <p class="fragment">"...we represented each stimulus pattern using a complete set of statistically independent binary features..."</p>
+
+                        ---
+
+                        ## Projecting neural vecors onto rule vectors
+                        <img src="f4b.jpg" class="r-stretch">
+
+                        --
+
+                        ## Empirical findings
+                        <img src="f4c-f.jpg" class="r-stretch">
+
+                        ---
+
+                        ## Area-specific differnces in representation
+                        <img src="f5.jpg" class="r-stretch">
+
+                        ---
+
+                        ## Area-specific learning dynamics
+                        <img src="f6a-d.jpg" class="r-stretch">
+
+                        --
+
+                        ## Area-specific learning dynamics
+                        <img src="f6e-h.jpg" class="r-stretch">
+
+                        ---
+
+                        ### Single-neuron representations at end of session predict next-day performance
+
+                        <img src="f7.jpg" class="r-stretch">
+
+                        <br>
+                        Change Rule vs No-Change
+
+                        ---
+
+                        ## Summary
+                        - A geometrical framework reveals single-neuron dynamics during de novo rule learning
+                        - Neurons in the dACC reflect search for the new rule-based behavioral policy
+                        - Neurons in the putamen also reflect confidence increase that follows the policy search
+                        - The neural representation predicts overnight retention and generalization of rules
+                    </script>
+                </section>
+    	</div>
+    </div>
+
+	<script src="../dist/reveal.js"></script>
+    <script src="../plugin/markdown/markdown.js"></script>
+    <script src="../plugin/highlight/highlight.js"></script>
+    <script src="../plugin/notes/notes.js"></script>
+    <script src="../plugin/math/math.js"></script>
+    <script>
+
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        slideNumber: 'c/t',
+        //showNotes: true,
+
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+      });
+
+    </script>
+</body>
+</html>
+
+<style>
+    #left {
+    margin: 10px 0 15px 20px;
+    text-align: center;
+    float: left;
+    z-index:-10;
+    width:48%;
+    font-size: 0.85em;
+    line-height: 1.5;
+    }
+
+    #right {
+    margin: 10px 0 15px 0;
+    float: right;
+    text-align: center;
+    z-index:-10;
+    width:48%;
+    font-size: 0.85em;
+    line-height: 1.5;
+    }
+</style>
