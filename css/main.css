@@ -42,12 +42,6 @@ ul.posts li {
     list-style: none;
 }
 
-table, th, td {
-    width: 100%;
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-
 th, td {
     padding: 5px;
   }
