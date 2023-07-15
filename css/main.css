@@ -42,8 +42,9 @@ ul.posts li {
     list-style: none;
 }
 
-table {
-    border-bottom: #333;
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 th, td {
