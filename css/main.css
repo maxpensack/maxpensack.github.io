@@ -42,10 +42,14 @@ ul.posts li {
     list-style: none;
 }
 
+table {
+    border-bottom: #333;
+}
+
 th, td {
     padding: 5px;
-  }
+}
 
 th {
     text-align: left;
-  }
+}
