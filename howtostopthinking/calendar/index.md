@@ -8,13 +8,13 @@ When first approaching a complex system like the brain, it is often difficult to
 
 <img src="spiral.png"  width="60%" height="30%">
 
-####First Pass
+#### First Pass
 
 | Session | Date | Topic | Notes | Slides | Video |
 |---------|------|-------|-------|--------|-------|
 |1|July 23, 2023|Overview| - | - | - |
 
-####Second Pass
+#### Second Pass
 
 | Session | Date | Topic | Notes | Slides | Video |
 |---------|------|-------|-------|--------|-------|
@@ -22,7 +22,7 @@ When first approaching a complex system like the brain, it is often difficult to
 |3|-|-| - | - | - |
 |4|-|-| - | - | - |
 
-####Third Pass
+#### Third Pass
 
 | Session | Date | Topic | Notes | Slides | Video |
 |---------|------|-------|-------|--------|-------|
@@ -32,7 +32,7 @@ When first approaching a complex system like the brain, it is often difficult to
 |8|-|-| - | - | - |
 |9|-|-| - | - | - |
 
-####Fourth Pass
+#### Fourth Pass
 
 | Session | Date | Topic | Notes | Slides | Video |
 |---------|------|-------|-------|--------|-------|
