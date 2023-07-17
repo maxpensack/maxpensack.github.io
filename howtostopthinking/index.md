@@ -3,9 +3,7 @@ layout: webinar
 title: How to Stop Thinking
 ---
 <h1>{{ page.title }}</h1>
-Welcome to my webinar site! Here I'll be hosting a weekly discussion related to my research on the **neuroscience of decision-making**.
-
-Our guiding question will be:
+Welcome to my webinar site! Here I'll be hosting a weekly discussion related to my research on the neuroscience of decision-making. Our guiding question will be:
 
 **How does the brain transition from thought to action?**
 
