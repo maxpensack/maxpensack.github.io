@@ -6,15 +6,15 @@ title: How to Stop Thinking - Calendar
 
 When first approaching a complex system like the brain, it is difficult to find the best starting point, since many topics are interrelated. For that reason, these weekly webinars will be organized "corkscrew" style, revisiting the same topics but at increasing levels of complexity with each pass:
 
-<img src="spiral.png"  width="60%" height="30%">
+<img src="spiral.png"  width="50%" height="20%">
 
-#### First Pass
+##### First Pass
 
 | Session | Date | Topic | Notes | Slides | Video |
 |---------|------|-------|-------|--------|-------|
 |1|July 23, 2023|Overview| - | - | - |
 
-#### Second Pass
+##### Second Pass
 
 | Session | Date | Topic | Notes | Slides | Video |
 |---------|------|-------|-------|--------|-------|
@@ -22,7 +22,7 @@ When first approaching a complex system like the brain, it is difficult to find 
 |3|-|-| - | - | - |
 |4|-|-| - | - | - |
 
-#### Third Pass
+##### Third Pass
 
 | Session | Date | Topic | Notes | Slides | Video |
 |---------|------|-------|-------|--------|-------|
@@ -32,7 +32,7 @@ When first approaching a complex system like the brain, it is difficult to find 
 |8|-|-| - | - | - |
 |9|-|-| - | - | - |
 
-#### Fourth Pass
+##### Fourth Pass
 
 | Session | Date | Topic | Notes | Slides | Video |
 |---------|------|-------|-------|--------|-------|
