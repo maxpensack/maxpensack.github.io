@@ -4,7 +4,7 @@ title: How to Stop Thinking - Calendar
 ---
 <h1>{{ page.title }}</h1>
 
-When first approaching a complex system like the brain, it is often difficult to find the best starting point, since many topics are interrelated. For that reason, these weekly webinars will be organized "corkscrew" style - circling the same topics at increasing levels of complexity:
+When first approaching a complex system like the brain, it is difficult to find the best starting point, since many topics are interrelated. For that reason, these weekly webinars will be organized "corkscrew" style, revisiting the same topics but at increasing levels of complexity with each pass:
 
 <img src="spiral.png"  width="60%" height="30%">
 
